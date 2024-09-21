@@ -2,7 +2,6 @@ Projeto de Gerenciamento de Academia
 Este projeto é um sistema de gerenciamento de academia implementado em C++. Ele permite o cadastro e gerenciamento de alunos, personais e planos, além de fornecer relatórios sobre os dados do sistema. O projeto é modular, com classes que representam os diferentes atores e funcionalidades da academia, como alunos, personais, planos e gerenciamento de dados.
 
 Estrutura do Projeto
-
 1. Classes
 Pessoa
 A classe Pessoa é uma classe base que serve para representar características comuns entre alunos e personais, como nome, CPF, telefone, idade e email.
@@ -50,7 +49,7 @@ Pessoa.h: Declaração da classe Pessoa, a classe base para alunos e personais.
 Plano.h: Declaração da classe Plano, que representa um plano de assinatura na academia.
 
 4. Como Compilar e Executar
- Certifique-se de ter um compilador C++ instalado (como g++).
+Certifique-se de ter um compilador C++ instalado (como g++).
 
 Compile o projeto executando o comando:
 g++ -o crud Pessoa.cpp Aluno.cpp Personal.cpp Plano.cpp Gerenciador.cpp Menu.cpp
